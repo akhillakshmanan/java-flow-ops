@@ -8,29 +8,37 @@ The application is designed to manage data related to departments, teachers, and
 
 # Prerequisites
 Java 8 or above
+
 Gson library (version 2.10.1)
-Getting Started
 
 
 
-# Clone the Repository:
+
+# Getting Started:
+Clone the Repository:
+
 git clone <repository-url>
+
 Download Gson Library:
 
 Download the Gson library (version 2.10.1) and add it to the classpath as an external JAR.
 
 # Run the Application:
 cd <project-directory>
+
 javac Main.java
+
 java Main
+
 Usage
-Input Format
-Input to the application should be provided as a JSON string for department, student, or teacher entities.
+Input Format: Input to the application should be provided as a JSON string for department, student, or teacher entities.
 
 
 # Sample Inputs
 Department{"id":dep1,"name":"commerce","NoOfTeachers":0,"NoOfStudents":0}
+
 Student{"rollNo":12,"name":"John","age":21,"address":"House No:12","department":"commerce","cource":"BBA"}
+
 Teacher{"staffId":12,"name":"John","age":21,"address":"House No:14","department":"CS","specialization":"Java"}
 
 # Dependencies
